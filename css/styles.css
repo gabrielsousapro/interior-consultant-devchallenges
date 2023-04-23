@@ -1,5 +1,13 @@
 :root {
     font-size: 62.5%;
+
+    --white: #fff;
+    --black: #181719;
+    --light-white: #f2f2f2;
+    --gray-shade-first: #828282;
+    --gray-shade-second: #a9a9a9;
+
+
 }
 
 *, ::before, ::after {
