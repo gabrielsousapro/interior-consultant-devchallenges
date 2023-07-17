@@ -1,0 +1,26 @@
+:root {
+    font-size: 62.5%;
+
+    --white: #fff;
+    --black: #181719;
+    --light-white: #f2f2f2;
+    --gray-shade-first: #828282;
+    --gray-shade-second: #a9a9a9;
+}
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 12px;
+}
