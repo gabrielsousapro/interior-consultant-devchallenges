@@ -1,11 +1,14 @@
 .header {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 38px;
 }
 
-.header__title {
+.header__navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar__title {
     color: #FFF;
     font-family: Crimson Pro;
     font-size: 14px;
@@ -16,70 +19,4 @@
     text-decoration: none;
     padding: 8px;
     border: 1px solid #fff;
-}
-
-.header__menu {
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    background-color: var(--black);
-}
-
-.menu-btn {
-    width: 2.8rem;
-    height: 2.8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 2rem 1rem;
-    cursor: pointer;
-}
-
-.menu-btn__burger {
-    width: 2.8rem;
-    height: 3.5px;
-    background-color: #fff;
-}
-
-.menu-btn__burger::before,
-.menu-btn__burger::after {
-    content: "";
-    position: absolute;
-    width: 2.8rem;
-    height: 3.5px;
-    background-color: #fff;
-}
-
-.menu-btn__burger::before {
-    transform: translateY(-1.1rem);
-}
-
-.menu-btn__burger::after {
-    transform: translateY(1.1rem);
-}
-
-.menu__item {
-    list-style: none;
-    margin-bottom: 2rem;
-}
-
-.menu__item a {
-    text-decoration: none;
-    font-size: 1.8rem;
-    color: var(--white);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    padding: 1rem 0rem;
-}
-
-.menu__item a:hover {
-    border-bottom: 2px solid #fff;
-    text-shadow: 0px 0px 2px #fff;
 }
