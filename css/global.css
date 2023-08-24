@@ -23,4 +23,5 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px 12px;
+    position: relative;
 }

@@ -1,9 +1,7 @@
 .header {
     max-width: 1200px;
     width: 100%;
-    margin-bottom: 1000px;
-    padding: 0 2rem;
-    position: relative;
+    margin-bottom: 45px;
 }
 
 .header__navbar {
