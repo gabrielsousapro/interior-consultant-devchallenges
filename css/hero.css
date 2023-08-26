@@ -1,0 +1,94 @@
+.desc__title {
+   color: #FFF;
+   font-size: 36px;
+   font-family: Lora;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.desc__text {
+   color: #FFF;
+   font-family: Montserrat;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   margin: 25px 0;
+}
+
+.desc__read-more {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20.57px;
+}
+
+.desc__read-more .arrow {
+    margin-left: 12px;
+    width: 24px;   
+}
+
+.main__apresentation figure img{
+    width: 100%;
+}
+
+.apresentation__twitter-ref {
+    width: 300px;
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -70px;
+    align-items: flex-start;
+    background: #181719;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.twitter-ref__header {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.twitter-ref__header img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+
+.twitter-ref__info h3{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 3px;
+    
+}
+
+.twitter-ref__info p {
+    color: var(--gray-3, #828282);
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    list-style: none;
+}
+
+.twitter-ref__desc {
+    color: #FFF;
+    font-family: Lora;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 20px;
+    margin-top: 11px;
+}
