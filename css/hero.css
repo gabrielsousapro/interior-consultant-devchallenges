@@ -1,6 +1,9 @@
 .main {
     display: flex;
     flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 45px;
 }
 
 .desc__title {

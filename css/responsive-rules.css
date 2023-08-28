@@ -25,12 +25,64 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
 
     /* Hero section */
 
+    .apresentation__twitter-ref {
+        width: 410px;
+        height: 189px;
+    }
+
+    .twitter-ref__info h3 {
+        font-size: 14px;        
+    }
+
+    .twitter-ref__info p {
+        font-size: 12px; 
+    }
+
+    .twitter-ref__desc {
+        font-size: 24px;
+        max-width: 70%;
+    }
+
+    /* Footer */
+
+    .footer {
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 993px) {
+    /* hero */
+
     .main {
         flex-direction: row;
-        margin-top: 55px;
+        justify-content: space-between;
+        margin-top: 160px;
     }
+
+    .main__desc {
+        margin-top: 120px;
+        max-width: 410px;
+    }
+
+    .main__apresentation {
+        max-width: 680px;
+    }
+
+    .desc__title {
+       font-size: 48px;
+    }
+
+    .desc__text {
+       font-size: 24px;
+    }
+
+    .desc__read-more {
+        font-size: 18px;
+    }
+
+
 }
